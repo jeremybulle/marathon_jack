@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <title>Marathon Jack</title>
         <link rel="stylesheet" type="text/css" media="screen" href="black2.css">
-        <script src="./black.js"></script>
+
     </head>
 
     <body>
@@ -35,29 +35,32 @@
 
               <h2> Main du croupier</h2>
 
-              <div id="carte_croupier"><img src="./img/1.BMP"/></div>
+              <div id="carte_croupier"><img src="img/1.BMP"/></div>
 
             </div>
             <div id="joueur">
 
               <h2> Votre main</h2>
 
-              <div id="carte_joueur"><img src="./img/2.BMP"/></div>
+              <div id="carte_joueur"></div>
             </div>
           </div>
           <div id="score">
             <h2 style="color:red">Scores:</h2>
+            <p class="titre_score">Score du Croupier</p>
+            <p id="points_croupier">10</p>
+            <p class="titre_score">Votre Score</p>
+            <p id="points_joueur">2</p>
           </div>
         </div>
 
       <footer>
-
         <div id="interface_joueur">
-          <button id="carte"> Carte </button>
-          <button id="garder"> Garder </button>
-          <button id="recommencer"> Recommencer </button>
+          <button type="submit" id="carte"> Carte </button>
+          <button type="submit" id="garder"> Garder </button>
+          <button type= "submit" id="recommencer"> Recommencer </button>
         </div>
-
+        <script src="./black.js"></script>
       </footer>
 
     </body>

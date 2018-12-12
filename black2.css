@@ -81,6 +81,11 @@ body{
   font-size: 2em
 }
 
+#carte_croupier,#carte_joueur{
+  display: flex;
+  justify-content: center;
+}
+
 footer{
   display: flex;
   flex-wrap: nowrap;
