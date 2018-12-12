@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="Fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Marathon Jack</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="black2.css">
+        <script src="./black.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Marathon Jack</h1>
+        </header>
+
+
+        <div id ="page">
+          <div id="regles">
+            <h2 style="color:red">Règles du jeu:</h2>
+            <p>L'objectif principal de ce projet est de créer une page Web permettant
+              à quelqu'un de jouer une adaptation du jeu «Black Jack» appelé "Marathon Jack".</br>
+               Dans ce jeu, un joueur est en compétition avec un croupier.</br>
+               <strong>Le but</strong> est de battre le croupier en obtenant un nombre de cartes
+               aussi proche que possible de 42, sans dépasser 42.</br>
+               Si le joueur dépasse 42, il perd.</br> Les valeurs de cartes sont définies
+               comme telles :
+               <ul>
+                 <li><U>As</U> : 11 points "1 si le score du joueur devait dépasser 42"</li>
+                 <li><U>2 à 9</U> : le numéreau de le carte équivaut aux points</li>
+                 <li><U>Roi, reine ou valet</U> : 10 points</li>
+              </ul>
+          </div>
+          <div id="plateau">
+
+            <div id="croupier">
+
+              <h2> Main du croupier</h2>
+
+              <div id="carte_croupier"><img src="./img/1.BMP"/></div>
+
+            </div>
+            <div id="joueur">
+
+              <h2> Votre main</h2>
+
+              <div id="carte_joueur"><img src="./img/2.BMP"/></div>
+            </div>
+          </div>
+          <div id="score">
+            <h2 style="color:red">Scores:</h2>
+          </div>
+        </div>
+
+      <footer>
+
+        <div id="interface_joueur">
+          <button id="carte"> Carte </button>
+          <button id="garder"> Garder </button>
+          <button id="recommencer"> Recommencer </button>
+        </div>
+
+      </footer>
+
+    </body>
+</html>
